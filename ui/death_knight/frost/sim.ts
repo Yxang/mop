@@ -167,34 +167,32 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecFrostDeathKnight, {
 export class FrostDeathKnightSimUI extends IndividualSimUI<Spec.SpecFrostDeathKnight> {
 	constructor(parentElem: HTMLElement, player: Player<Spec.SpecFrostDeathKnight>) {
 		super(parentElem, player, SPEC_CONFIG);
-		player.sim.waitForInit().then(() => {
-			this.reforger = new ReforgeOptimizer(this, {
-				updateSoftCaps: (softCaps: StatCap[]) => {
-					const mainHand = player.getEquippedItem(ItemSlot.ItemSlotMainHand);
-					if (mainHand?.item?.handType === HandType.HandTypeTwoHand) {
-						const physicalHitCap = softCaps.find(v => v.unitStat.equalsPseudoStat(PseudoStat.PseudoStatPhysicalHitPercent));
-						if (physicalHitCap) {
-							physicalHitCap.breakpoints = [7.5];
-							physicalHitCap.postCapEPs = [0];
-						}
-					} else {
-						const physicalHitCap = softCaps.find(v => v.unitStat.equalsPseudoStat(PseudoStat.PseudoStatPhysicalHitPercent));
-						if (physicalHitCap) {
-							physicalHitCap.postCapEPs[0] =
-								player.getEpWeights().getStat(Stat.StatHitRating) * 0.3 * Mechanics.PHYSICAL_HIT_RATING_PER_HIT_PERCENT;
-						}
+
+		this.reforger = new ReforgeOptimizer(this, {
+			updateSoftCaps: (softCaps: StatCap[]) => {
+				const mainHand = player.getEquippedItem(ItemSlot.ItemSlotMainHand);
+				if (mainHand?.item?.handType === HandType.HandTypeTwoHand) {
+					const physicalHitCap = softCaps.find(v => v.unitStat.equalsPseudoStat(PseudoStat.PseudoStatPhysicalHitPercent));
+					if (physicalHitCap) {
+						physicalHitCap.breakpoints = [7.5];
+						physicalHitCap.postCapEPs = [0];
 					}
-					return softCaps;
-				},
-				getEPDefaults: (player: Player<Spec.SpecFrostDeathKnight>) => {
-					const mainHand = player.getEquippedItem(ItemSlot.ItemSlotMainHand);
-					if (mainHand?.item?.handType === HandType.HandTypeTwoHand) {
-						return Presets.P1_P2_2H_OBLITERATE_EP_PRESET.epWeights;
-					} else {
-						return Presets.P1_P2_MASTERFROST_EP_PRESET.epWeights;
+				} else {
+					const physicalHitCap = softCaps.find(v => v.unitStat.equalsPseudoStat(PseudoStat.PseudoStatPhysicalHitPercent));
+					if (physicalHitCap) {
+						physicalHitCap.postCapEPs[0] = player.getEpWeights().getStat(Stat.StatHitRating) * 0.3 * Mechanics.PHYSICAL_HIT_RATING_PER_HIT_PERCENT;
 					}
-				},
-			});
+				}
+				return softCaps;
+			},
+			getEPDefaults: (player: Player<Spec.SpecFrostDeathKnight>) => {
+				const mainHand = player.getEquippedItem(ItemSlot.ItemSlotMainHand);
+				if (mainHand?.item?.handType === HandType.HandTypeTwoHand) {
+					return Presets.P1_P2_2H_OBLITERATE_EP_PRESET.epWeights;
+				} else {
+					return Presets.P1_P2_MASTERFROST_EP_PRESET.epWeights;
+				}
+			},
 		});
 	}
 }
