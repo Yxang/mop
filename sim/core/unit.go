@@ -393,9 +393,20 @@ func (unit *Unit) processDynamicBonus(sim *Simulation, bonus stats.Stats) {
 		}
 	}
 
-	unit.Env.TriggerDelayedPetInheritance(sim, unit.DynamicStatsPets, func(sim *Simulation, pet *Pet) {
-		pet.AddOwnerStats(sim, bonus)
-	})
+	// Higher performance than calling TriggerDelayedPetInheritance()
+	for _, pet := range unit.DynamicStatsPets {
+		if !pet.enabled {
+			continue
+		}
+
+		pet.pendingStatInheritance.AddInplace(&bonus)
+
+		if pet.statInheritanceAction.consumed || (pet.statInheritanceAction.NextActionAt == 0) {
+			numHeartbeats := (sim.CurrentTime - unit.Env.heartbeatOffset) / PetUpdateInterval
+			pet.statInheritanceAction.NextActionAt = PetUpdateInterval * (numHeartbeats + 1) + unit.Env.heartbeatOffset
+			sim.AddPendingAction(pet.statInheritanceAction)
+		}
+	}
 }
 
 func (unit *Unit) EnableDynamicStatDep(sim *Simulation, dep *stats.StatDependency) {

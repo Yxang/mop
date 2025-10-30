@@ -3282,7 +3282,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 3.71472303574e+06
+  dps: 3.7147229742e+06
   tps: 2.57260125786e+07
   dtps: 794041.64566
   hps: 208793.67615
@@ -3291,7 +3291,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 170759.60595
+  dps: 170758.09901
   tps: 1.15422304582e+06
   dtps: 34495.56117
   hps: 32694.0962
@@ -3300,7 +3300,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 176569.99137
+  dps: 176569.70293
   tps: 1.12118396224e+06
   dtps: 28195.14552
   hps: 21680.48411
@@ -3309,7 +3309,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 2.77861741314e+06
+  dps: 2.77861763725e+06
   tps: 1.937334348985e+07
   dtps: 857674.69707
   hps: 127928.02451
@@ -3318,7 +3318,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 137608.11003
+  dps: 137606.67429
   tps: 944383.62442
   dtps: 41517.04102
   hps: 29568.39689
@@ -3327,7 +3327,7 @@ dps_results: {
 dps_results: {
  key: "TestGuardian-Settings-Worgen-p2_offensive-FoN-NV-Default-default-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
-  dps: 132844.45932
+  dps: 132845.14767
   tps: 905111.52526
   dtps: 39492.50828
   hps: 21728.95679

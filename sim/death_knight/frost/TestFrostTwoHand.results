@@ -41,8 +41,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-AlacrityofXuen-103989"
  value: {
-  dps: 182414.47628
-  tps: 165160.09778
+  dps: 182409.67647
+  tps: 165148.39337
   hps: 2829.16258
  }
 }
@@ -97,15 +97,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-BattlegearoftheLostCatacomb"
  value: {
-  dps: 160687.08223
-  tps: 146254.20869
+  dps: 160744.03148
+  tps: 146310.73334
   hps: 2626.09148
  }
 }
 dps_results: {
  key: "TestFrostTwoHand-AllItems-BattleplateofCyclopeanDread"
  value: {
-  dps: 175740.4513
+  dps: 175742.14159
   tps: 159900.46537
   hps: 2973.41317
  }
@@ -113,8 +113,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-BattleplateoftheAll-ConsumingMaw"
  value: {
-  dps: 172274.2664
-  tps: 152648.03964
+  dps: 172253.76802
+  tps: 152655.30784
   hps: 2899.2207
  }
 }
@@ -209,15 +209,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-CharmofTenSongs-84071"
  value: {
-  dps: 171840.90559
-  tps: 156586.9037
+  dps: 171839.82359
+  tps: 156590.68688
   hps: 2802.31893
  }
 }
 dps_results: {
  key: "TestFrostTwoHand-AllItems-CommunalIdolofDestruction-101168"
  value: {
-  dps: 173151.09571
+  dps: 173150.27015
   tps: 158208.60081
   hps: 2786.77735
  }
@@ -689,7 +689,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-EnchantWeapon-BloodyDancingSteel-5125"
  value: {
-  dps: 170231.89204
+  dps: 170231.51515
   tps: 154724.73277
  }
 }
@@ -738,8 +738,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-EnchantWeapon-Windsong-4441"
  value: {
-  dps: 168991.83336
-  tps: 153787.60744
+  dps: 169015.2673
+  tps: 153809.14013
  }
 }
 dps_results: {
@@ -785,8 +785,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-FearwurmBadge-84074"
  value: {
-  dps: 172329.19741
-  tps: 157105.69156
+  dps: 172384.49043
+  tps: 157161.32505
   hps: 2807.34967
  }
 }
@@ -817,8 +817,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-Fen-Yu,FuryofXuen-102248"
  value: {
-  dps: 186017.03369
-  tps: 169892.76013
+  dps: 186120.45795
+  tps: 169993.97426
   hps: 2948.55574
  }
 }
@@ -1137,7 +1137,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-GrievousGladiator'sInsigniaofVictory-103319"
  value: {
-  dps: 178095.42793
+  dps: 178094.06751
   tps: 161645.09581
   hps: 2764.36857
  }
@@ -1409,7 +1409,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-LightoftheCosmos-87065"
  value: {
-  dps: 171402.20151
+  dps: 171401.38617
   tps: 156272.97749
   hps: 2801.57653
  }
@@ -1719,7 +1719,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-PlateoftheAll-ConsumingMaw"
  value: {
-  dps: 156557.59141
+  dps: 156556.29935
   tps: 142374.38324
   hps: 2734.31657
  }
@@ -1879,7 +1879,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-Primordius'TalismanofRage-96873"
  value: {
-  dps: 179985.40366
+  dps: 179983.23339
   tps: 163766.17522
   hps: 2845.04605
  }
@@ -1895,7 +1895,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-Qian-Le,CourageofNiuzao-102245"
  value: {
-  dps: 176545.44832
+  dps: 176544.59925
   tps: 160550.56651
   hps: 2927.97183
  }
@@ -1903,7 +1903,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-Qian-Ying,FortitudeofNiuzao-102250"
  value: {
-  dps: 181956.92228
+  dps: 181956.07322
   tps: 165211.2542
   hps: 2893.38269
  }
@@ -2207,7 +2207,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-SpringrainIdolofDestruction-101023"
  value: {
-  dps: 173046.4726
+  dps: 173045.55844
   tps: 157912.52383
   hps: 2779.45103
  }
@@ -2335,7 +2335,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-SunsoulIdolofBattle-101152"
  value: {
-  dps: 176176.83922
+  dps: 176176.17874
   tps: 160117.94579
   hps: 2805.21039
  }
@@ -2359,7 +2359,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-SwordguardEmbroidery(Rank3)-4894"
  value: {
-  dps: 179691.69774
+  dps: 179690.51384
   tps: 162977.53442
   hps: 2802.1431
  }
@@ -2383,15 +2383,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-TalismanofBloodlust-96864"
  value: {
-  dps: 173019.90761
-  tps: 157624.37482
+  dps: 173021.70675
+  tps: 157626.39356
   hps: 2817.38185
  }
 }
 dps_results: {
  key: "TestFrostTwoHand-AllItems-TerrorintheMists-87167"
  value: {
-  dps: 172817.23714
+  dps: 172814.72622
   tps: 157042.25815
   hps: 2842.45742
  }
@@ -2407,7 +2407,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-TrailseekerIdolofRage-101054"
  value: {
-  dps: 170660.01395
+  dps: 170659.13553
   tps: 155857.14058
   hps: 2764.36857
  }
@@ -2735,7 +2735,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-AllItems-Xing-Ho,BreathofYu'lon-102246"
  value: {
-  dps: 176833.48506
+  dps: 176832.70321
   tps: 160697.6784
   hps: 2943.29484
  }
@@ -2759,15 +2759,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Average-Default"
  value: {
-  dps: 181553.70325
-  tps: 164530.47454
+  dps: 181550.7943
+  tps: 164528.3914
   hps: 2644.48542
  }
 }
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-DefaultTalents-Basic-obliterate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 732912.22863
+  dps: 732903.23036
   tps: 715869.99524
   hps: 2385.92975
  }
@@ -2815,7 +2815,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RoilingBlood-Basic-obliterate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 663931.30969
+  dps: 663922.07608
   tps: 646865.23989
   hps: 2246.56353
  }
@@ -2823,7 +2823,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RoilingBlood-Basic-obliterate-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 167919.53332
+  dps: 167918.1824
   tps: 150955.7934
   hps: 2649.57973
  }
@@ -2839,7 +2839,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RoilingBlood-Basic-obliterate-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 475471.46949
+  dps: 475469.74317
   tps: 465903.68001
   hps: 1922.38245
  }
@@ -2847,8 +2847,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RoilingBlood-Basic-obliterate-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 130030.2126
-  tps: 120210.88467
+  dps: 130116.85804
+  tps: 120301.94405
   hps: 2288.01699
  }
 }
@@ -2863,7 +2863,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RunicCorruption-Basic-obliterate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 684283.79198
+  dps: 684274.51684
   tps: 667211.98674
   hps: 2410.21407
  }
@@ -2871,7 +2871,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RunicCorruption-Basic-obliterate-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 178353.78261
+  dps: 178353.03862
   tps: 161549.8782
   hps: 2801.57653
  }
@@ -2887,7 +2887,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RunicCorruption-Basic-obliterate-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 503140.36492
+  dps: 503138.38749
   tps: 493582.54862
   hps: 2076.41086
  }
@@ -2911,7 +2911,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-RunicEmpowerment-Basic-obliterate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 719836.16011
+  dps: 719834.63651
   tps: 702740.2773
   hps: 2406.18948
  }
@@ -2959,7 +2959,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-UnholyBlight-Basic-obliterate-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 669637.0336
+  dps: 669626.47404
   tps: 652579.25347
   hps: 2251.44774
  }
@@ -2967,7 +2967,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-UnholyBlight-Basic-obliterate-FullBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 168693.70805
+  dps: 168691.47152
   tps: 151687.00173
   hps: 2642.2534
  }
@@ -2983,7 +2983,7 @@ dps_results: {
 dps_results: {
  key: "TestFrostTwoHand-Settings-Troll-p2.2h-obliterate-UnholyBlight-Basic-obliterate-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 485143.41697
+  dps: 485142.02566
   tps: 475595.73761
   hps: 1915.52252
  }

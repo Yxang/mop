@@ -81,7 +81,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-BadJuju-96781"
  value: {
-  dps: 87232.91055
+  dps: 87232.3736
   tps: 82194.82872
   hps: 1652.1909
  }
@@ -185,7 +185,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-CharmofTenSongs-84071"
  value: {
-  dps: 86949.39376
+  dps: 86948.85682
   tps: 81778.9386
   hps: 1648.82867
  }
@@ -473,7 +473,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-DarkmistVortex-87172"
  value: {
-  dps: 88597.36494
+  dps: 88594.32187
   tps: 83360.64664
   hps: 1728.02332
  }
@@ -873,7 +873,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-FortitudeoftheZandalari-96793"
  value: {
-  dps: 87238.78641
+  dps: 87238.24946
   tps: 82212.98204
   hps: 1672.05445
  }
@@ -1161,7 +1161,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-HeartofFire-81181"
  value: {
-  dps: 86242.42871
+  dps: 86237.87169
   tps: 81186.50737
   hps: 1654.4999
  }
@@ -1889,7 +1889,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-RegaliaoftheGuardianSerpent"
  value: {
-  dps: 92966.89468
+  dps: 92965.82079
   tps: 86551.7444
   hps: 1830.82326
  }
@@ -2049,7 +2049,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-SigilofKypariZar-84076"
  value: {
-  dps: 87036.76741
+  dps: 87031.29075
   tps: 81807.04899
   hps: 1651.01614
  }
@@ -2153,7 +2153,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-SpringrainStoneofWisdom-101041"
  value: {
-  dps: 91649.4312
+  dps: 91644.77474
   tps: 86229.66791
   hps: 1654.90499
  }
@@ -2297,7 +2297,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-TalismanofBloodlust-96864"
  value: {
-  dps: 87885.39129
+  dps: 87880.14221
   tps: 82798.243
   hps: 1707.56639
  }
@@ -2569,7 +2569,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-UnerringVisionofLeiShen-96930"
  value: {
-  dps: 100334.15451
+  dps: 100333.08062
   tps: 92981.4314
   hps: 1655.31007
  }
@@ -2649,7 +2649,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-Wushoolay'sFinalChoice-96785"
  value: {
-  dps: 97739.88792
+  dps: 97735.33089
   tps: 91450.84203
   hps: 1666.531
  }
@@ -2681,7 +2681,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-AllItems-ZenAlchemistStone-75274"
  value: {
-  dps: 91548.1674
+  dps: 91542.53648
   tps: 85819.88878
   hps: 1654.74295
  }
@@ -2689,7 +2689,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Average-Default"
  value: {
-  dps: 91167.9395
+  dps: 91166.40263
   tps: 85726.65322
   hps: 1666.30884
  }
@@ -2697,7 +2697,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-Draenei-p1-Basic-default-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 153030.64899
+  dps: 153025.97757
   tps: 162876.13252
   hps: 2475.95533
  }
@@ -2769,7 +2769,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-Draenei-pre_raid-Basic-default-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 60072.06153
+  dps: 60069.40503
   tps: 75999.26968
   hps: 1491.54916
  }
@@ -2777,7 +2777,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-Draenei-pre_raid-Basic-default-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 55807.06089
+  dps: 55804.40439
   tps: 54397.50879
   hps: 1491.54916
  }
@@ -2793,7 +2793,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-NightElf-p1-Basic-default-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 153030.64899
+  dps: 153025.97757
   tps: 162876.2063
   hps: 2475.95533
  }
@@ -2865,7 +2865,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-NightElf-pre_raid-Basic-default-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 60072.06153
+  dps: 60069.40503
   tps: 75999.26968
   hps: 1491.54916
  }
@@ -2873,7 +2873,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-NightElf-pre_raid-Basic-default-NoBuffs-0.0yards-LongSingleTarget"
  value: {
-  dps: 55807.06089
+  dps: 55804.40439
   tps: 54397.50879
   hps: 1491.54916
  }
@@ -2889,7 +2889,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-Troll-p1-Basic-default-FullBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 158277.87856
+  dps: 158274.79112
   tps: 165996.59751
   hps: 2534.6438
  }
@@ -2913,7 +2913,7 @@ dps_results: {
 dps_results: {
  key: "TestShadow-Settings-Troll-p1-Basic-default-NoBuffs-0.0yards-LongMultiTarget"
  value: {
-  dps: 103348.48832
+  dps: 103346.60663
   tps: 117126.55304
   hps: 2273.75833
  }
