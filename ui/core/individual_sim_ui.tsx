@@ -533,10 +533,10 @@ export abstract class IndividualSimUI<SpecType extends Spec> extends SimUI {
 		if (!(settingsProto.apiVersion < CURRENT_API_VERSION)) {
 			return;
 		}
-		// Define the conversion map between Stat/ PseudoStat schemas.
+
 		const conversionMap: ProtoConversionMap<IndividualSimSettings> = new Map([
 			[
-				1,
+				2,
 				(oldProto: IndividualSimSettings) => {
 					oldProto.apiVersion = 2;
 
