@@ -43,6 +43,7 @@ import DefaultBuild from './builds/sha_default.build.json';
 import GarajalBuild from './builds/garajal_encounter_only.build.json';
 import EmpressBuild from './builds/empress_encounter_only.build.json';
 import ShaBuild from './builds/sha_encounter_only.build.json';
+import HorridonBuild from './builds/horridon_encounter_only.build.json';
 export const ROTATION_DEFAULT = PresetUtils.makePresetAPLRotation("Gara'jal Default", DefaultApl);
 export const ROTATION_HOTW = PresetUtils.makePresetAPLRotation("Gara'jal Offensive HotW", OffensiveHotwApl);
 export const ROTATION_EMPRESS = PresetUtils.makePresetAPLRotation("Empress Adds", EmpressApl);
@@ -163,3 +164,4 @@ export const PRESET_BUILD_DEFAULT = PresetUtils.makePresetBuildFromJSON("All Def
 export const PRESET_BUILD_GARAJAL = PresetUtils.makePresetBuildFromJSON("Gara'jal", Spec.SpecGuardianDruid, GarajalBuild);
 export const PRESET_BUILD_EMPRESS = PresetUtils.makePresetBuildFromJSON("Empress P2 Adds", Spec.SpecGuardianDruid, EmpressBuild);
 export const PRESET_BUILD_SHA = PresetUtils.makePresetBuildFromJSON("Sha of Fear P2", Spec.SpecGuardianDruid, ShaBuild);
+export const PRESET_BUILD_HORRIDON = PresetUtils.makePresetBuildFromJSON("Horridon P2", Spec.SpecGuardianDruid, HorridonBuild);
