@@ -64,15 +64,6 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecMarksmanshipHunter, {
 				.withPseudoStat(PseudoStat.PseudoStatPhysicalHitPercent, 7.5)
 				.withStat(Stat.StatExpertiseRating, 7.5 * 4 * Mechanics.EXPERTISE_PER_QUARTER_PERCENT_REDUCTION);
 		})(),
-		softCapBreakpoints: (() => {
-			const hasteSoftCap = StatCap.fromPseudoStat(PseudoStat.PseudoStatRangedHastePercent, {
-				breakpoints: [5.402, 9.092],
-				capType: StatCapType.TypeSoftCap,
-				postCapEPs: [0.35 * Mechanics.HASTE_RATING_PER_HASTE_PERCENT, 0.29 * Mechanics.HASTE_RATING_PER_HASTE_PERCENT],
-			});
-
-			return [hasteSoftCap];
-		})(),
 		other: Presets.OtherDefaults,
 		// Default consumes settings.
 		consumables: Presets.DefaultConsumables,
