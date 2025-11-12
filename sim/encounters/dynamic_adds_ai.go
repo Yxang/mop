@@ -207,15 +207,17 @@ func (ai *DynamicAddsAI) spawnAdd(sim *core.Simulation) {
 	}
 
 	if addUnit == nil {
-		ai.nextSpawnTime += ai.spawnInterval
+		if ai.spawnInterval > 0 {
+			ai.nextSpawnTime += ai.spawnInterval
 
-		pa := sim.GetConsumedPendingActionFromPool()
-		pa.NextActionAt = ai.nextSpawnTime
-		pa.Priority = core.ActionPriorityDOT
-		pa.OnAction = func(sim *core.Simulation) {
-			ai.spawnAdd(sim)
+			pa := sim.GetConsumedPendingActionFromPool()
+			pa.NextActionAt = ai.nextSpawnTime
+			pa.Priority = core.ActionPriorityDOT
+			pa.OnAction = func(sim *core.Simulation) {
+				ai.spawnAdd(sim)
+			}
+			sim.AddPendingAction(pa)
 		}
-		sim.AddPendingAction(pa)
 		return
 	}
 
