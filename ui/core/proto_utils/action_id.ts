@@ -330,6 +330,8 @@ export class ActionId {
 				if (tag == 2) name += ' (Cleave)';
 				break;
 			case 'Ice Lance':
+			case 'Frostbolt':
+			case 'Frostfire Bolt':
 				if (tag == 1) {
 					name += ' (Glyph)';
 				}
@@ -1214,6 +1216,8 @@ const spellIdTooltipOverrides: Map<string, ActionIdOverride> = new Map([
 	[JSON.stringify({ spellId: 44457, tag: 2 }), { spellId: 44461 }], // Living Bomb Explosion
 	[JSON.stringify({ spellId: 114923, tag: 2 }), { spellId: 114954 }], // Nether Tempest (Cleave)
 	[JSON.stringify({ spellId: 30455, tag: 1 }), { spellId: 131080 }], // Ice Lance - Glyph
+	[JSON.stringify({ spellId: 116, tag: 1 }), { spellId: 131079 }], // Frostbolt - Glyph
+	[JSON.stringify({ spellId: 44614, tag: 1 }), { spellId: 131081 }], // Frostfire bolt - Glyph
 
 	// Warlock - Immolation Aura
 	[JSON.stringify({ spellId: 104025, tag: 2 }), { spellId: 129476 }],

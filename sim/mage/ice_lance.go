@@ -6,6 +6,7 @@ import (
 )
 
 func (mage *Mage) registerIceLanceSpell() {
+	actionID := core.ActionID{SpellID: 30455}
 	// Values found at https://wago.tools/db2/SpellEffect?build=5.5.0.60802&filter%5BSpellID%5D=30455
 	iceLanceScaling := 0.335
 	iceLanceCoefficient := 0.335
@@ -35,7 +36,7 @@ func (mage *Mage) registerIceLanceSpell() {
 	}
 
 	splittingIceSpell := mage.RegisterSpell(getIceLanceSpellBaseConfig(core.SpellConfig{
-		ActionID: core.ActionID{SpellID: 30455}.WithTag(1), // Real SpellID: 131080
+		ActionID: actionID.WithTag(1), // Real SpellID: 131080
 
 		DamageMultiplier: 0.4,
 
@@ -57,7 +58,7 @@ func (mage *Mage) registerIceLanceSpell() {
 	}
 
 	mage.RegisterSpell(getIceLanceSpellBaseConfig(core.SpellConfig{
-		ActionID: core.ActionID{SpellID: 30455},
+		ActionID: actionID,
 
 		ManaCost: core.ManaCostOptions{
 			BaseCostPercent: 1,
