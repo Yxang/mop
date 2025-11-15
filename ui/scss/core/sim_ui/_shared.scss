@@ -155,3 +155,17 @@ th {
 	}
 }
 // END TODO
+
+// Hide all tank EP weights/actions
+// due to inaccurate reforge results causing confusion
+.sim-type--tank {
+	.ep-weights-menu {
+		.modal-footer,
+		.ep-ratios,
+		.ep-reference-options,
+		.healing-metrics,
+		.threat-metrics {
+			display: none !important;
+		}
+	}
+}
