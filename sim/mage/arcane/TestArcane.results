@@ -327,8 +327,8 @@ dps_results: {
 dps_results: {
  key: "TestArcane-AllItems-RegaliaoftheChromaticHydra"
  value: {
-  dps: 150103.71424
-  tps: 146074.40611
+  dps: 144122.88611
+  tps: 140083.58082
  }
 }
 dps_results: {
