@@ -58,17 +58,17 @@ func (hp *HunterPet) NewPetAbility(abilityType PetAbilityType, isPrimary bool) *
 	switch abilityType {
 
 	case Gore:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 35290, CD: time.Second * 10, School: core.SpellSchoolPhysical, DebuffAura: core.PhysVulnerabilityAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 35290, CD: time.Second * 10, School: core.SpellSchoolPhysical, DebuffAura: core.GoreAura})
 	case Ravage:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 50518, CD: time.Second * 10, School: core.SpellSchoolPhysical, DebuffAura: core.PhysVulnerabilityAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 50518, CD: time.Second * 10, School: core.SpellSchoolPhysical, DebuffAura: core.RavageAura})
 	case StampedeDebuff:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 57386, CD: time.Second * 10, School: core.SpellSchoolPhysical, DebuffAura: core.PhysVulnerabilityAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 57386, CD: time.Second * 15, School: core.SpellSchoolPhysical, DebuffAura: core.StampedeAura})
 	case AcidSpitDebuff:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 55749, CD: time.Second * 10, School: core.SpellSchoolNature, DebuffAura: core.PhysVulnerabilityAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 55749, CD: time.Second * 10, School: core.SpellSchoolNature, DebuffAura: core.AcidSpitAura})
 	case DemoralizingRoar:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 50256, CD: time.Second * 10, School: core.SpellSchoolNature, DebuffAura: core.WeakenedBlowsAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 50256, CD: time.Second * 10, School: core.SpellSchoolNature, DebuffAura: core.DemoralizingRoar})
 	case DemoralizingScreech:
-		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 24423, CD: time.Second * 8, School: core.SpellSchoolNature, DebuffAura: core.WeakenedBlowsAura})
+		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 24423, CD: time.Second * 8, School: core.SpellSchoolNature, DebuffAura: core.DemoralizingScreech})
 	case FireBreathDebuff:
 		return hp.newPetDebuff(PetDebuffSpellConfig{SpellID: 34889, CD: time.Second * 30, School: core.SpellSchoolFire, DebuffAura: core.FireBreathDebuff})
 	case LightningBreath:
