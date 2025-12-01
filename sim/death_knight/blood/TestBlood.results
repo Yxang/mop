@@ -3145,60 +3145,6 @@ dps_results: {
  }
 }
 dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-FullBuffs-5.0yards-LongMultiTarget"
- value: {
-  dps: 690126.10489
-  tps: 3.8569360525e+06
-  dtps: 1.69193974007e+06
-  hps: 177315.91514
- }
-}
-dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-FullBuffs-5.0yards-LongSingleTarget"
- value: {
-  dps: 152422.01191
-  tps: 913221.70414
-  dtps: 86519.82095
-  hps: 89534.55214
- }
-}
-dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-FullBuffs-5.0yards-ShortSingleTarget"
- value: {
-  dps: 163249.08622
-  tps: 951040.91776
-  dtps: 85755.36337
-  hps: 92093.25793
- }
-}
-dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-NoBuffs-5.0yards-LongMultiTarget"
- value: {
-  dps: 522793.28057
-  tps: 2.96044061118e+06
-  dtps: 1.89260018267e+06
-  hps: 130442.75532
- }
-}
-dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-NoBuffs-5.0yards-LongSingleTarget"
- value: {
-  dps: 115946.90617
-  tps: 686029.38208
-  dtps: 87685.64727
-  hps: 73003.8903
- }
-}
-dps_results: {
- key: "TestBlood-Settings-BloodElf-sha_default-sha_default-sha_default-NoBuffs-5.0yards-ShortSingleTarget"
- value: {
-  dps: 121371.20602
-  tps: 712002.13999
-  dtps: 89284.57691
-  hps: 79908.69215
- }
-}
-dps_results: {
  key: "TestBlood-Settings-Orc-p2-DefaultTalents-Basic-defensive-FullBuffs-0.0yards-LongMultiTarget"
  value: {
   dps: 688188.75006

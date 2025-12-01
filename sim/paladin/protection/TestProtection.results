@@ -3100,24 +3100,6 @@ dps_results: {
  }
 }
 dps_results: {
- key: "TestProtection-Settings-BloodElf-horridon_default-horridon_default-horridon_default-FullBuffs-5.0yards-horridon_default"
- value: {
-  dps: 218673.94233
-  tps: 1.50308225462e+06
-  dtps: 38484.8845
-  hps: 41505.44742
- }
-}
-dps_results: {
- key: "TestProtection-Settings-BloodElf-horridon_default-horridon_default-horridon_default-NoBuffs-5.0yards-horridon_default"
- value: {
-  dps: 170645.78826
-  tps: 1.19571888795e+06
-  dtps: 64137.1141
-  hps: 32843.79425
- }
-}
-dps_results: {
  key: "TestProtection-Settings-BloodElf-p2_balanced-Seal of Insight-sha-FullBuffs-0.0yards-LongMultiTarget"
  value: {
   dps: 1.10086833787e+06
@@ -3265,24 +3247,6 @@ dps_results: {
   dps: 120776.39283
   tps: 846520.64983
   dtps: 50747.07544
- }
-}
-dps_results: {
- key: "TestProtection-Settings-BloodElf-sha_default-sha_default-sha_default-FullBuffs-5.0yards-sha_default"
- value: {
-  dps: 116190.55888
-  tps: 794924.26891
-  dtps: 16800.62684
-  hps: 20306.20516
- }
-}
-dps_results: {
- key: "TestProtection-Settings-BloodElf-sha_default-sha_default-sha_default-NoBuffs-5.0yards-sha_default"
- value: {
-  dps: 90009.63663
-  tps: 631242.22604
-  dtps: 23453.68946
-  hps: 16821.26583
  }
 }
 dps_results: {
