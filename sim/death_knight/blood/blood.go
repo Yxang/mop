@@ -107,7 +107,7 @@ func (bdk *BloodDeathKnight) ApplyTalents() {
 		})
 	})
 
-	for _, ghoul := range bdk.AllGhoulPets {
+	for _, ghoul := range bdk.GetAllActiveGhoulPets() {
 		oldOnPetEnable := ghoul.OnPetEnable
 		ghoul.OnPetEnable = func(sim *core.Simulation) {
 			if oldOnPetEnable != nil {
