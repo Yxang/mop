@@ -19,7 +19,7 @@ export const P1_PRESET = PresetUtils.makePresetGear('P1', P1Gear);
 import P2Gear from './gear_sets/p2.gear.json';
 export const P2_PRESET = PresetUtils.makePresetGear('P2', P2Gear);
 import P3Gear from './gear_sets/p3.gear.json';
-export const P3_PRESET = PresetUtils.makePresetGear('P3 (Tentative)', P3Gear);
+export const P3_PRESET = PresetUtils.makePresetGear('P3', P3Gear);
 import P4Gear from './gear_sets/p4.gear.json';
 export const P4_PRESET = PresetUtils.makePresetGear('P4', P4Gear);
 import ItemSwapGear from './gear_sets/p1_item_swap.gear.json';
