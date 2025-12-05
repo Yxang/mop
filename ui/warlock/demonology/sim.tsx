@@ -20,14 +20,9 @@ const MIN_HASTE_PERCENT_BREAKPOINT_THRESHOLD = hasteBreakpoints.get('8-tick - Sh
 const MAX_P2_HASTE_PERCENT_BREAKPOINT_THRESHOLD = 26.0;
 const MAX_P3_HASTE_PERCENT_BREAKPOINT_THRESHOLD = hasteBreakpoints.get('9-tick - Shadowflame')!;
 const defaultHasteBreakpoints = [
-	hasteBreakpoints.get('8-tick - Shadowflame')!,
 	hasteBreakpoints.get('6-tick - Doom')!,
-	hasteBreakpoints.get('9-tick - Shadowflame')!,
-	hasteBreakpoints.get('10-tick - Shadowflame')!,
 	hasteBreakpoints.get('7-tick - Doom')!,
-	hasteBreakpoints.get('11-tick - Shadowflame')!,
 	hasteBreakpoints.get('8-tick - Doom')!,
-	hasteBreakpoints.get('12-tick - Shadowflame')!,
 	hasteBreakpoints.get('9-tick - Doom')!,
 ];
 
@@ -122,10 +117,10 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecDemonologyWarlock, {
 		rotations: [Presets.APL_Default],
 
 		// Preset gear configurations that the user can quickly select.
-		gear: [Presets.PRERAID_PRESET, Presets.P1_PRESET, Presets.P2_PRESET],
+		gear: [Presets.PRERAID_PRESET, Presets.P2_PRESET, Presets.P3_PRESET],
 		itemSwaps: [],
 
-		builds: [Presets.PRSET_BUILD_P1],
+		builds: [Presets.PRESET_BUILD_P1],
 	},
 
 	autoRotation: (_player: Player<Spec.SpecDemonologyWarlock>): APLRotation => {
@@ -147,11 +142,11 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecDemonologyWarlock, {
 				[Faction.Unknown]: {},
 				[Faction.Alliance]: {
 					1: Presets.PRERAID_PRESET.gear,
-					2: Presets.P1_PRESET.gear,
+					2: Presets.P2_PRESET.gear,
 				},
 				[Faction.Horde]: {
 					1: Presets.PRERAID_PRESET.gear,
-					2: Presets.P1_PRESET.gear,
+					2: Presets.P2_PRESET.gear,
 				},
 			},
 			otherDefaults: Presets.OtherDefaults,

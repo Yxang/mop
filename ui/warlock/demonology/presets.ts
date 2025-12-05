@@ -11,8 +11,8 @@ import { Stats, UnitStat } from '../../core/proto_utils/stats';
 import { defaultRaidBuffMajorDamageCooldowns } from '../../core/proto_utils/utils';
 import { WARLOCK_BREAKPOINTS } from '../presets';
 import DefaultAPL from './apls/default.apl.json';
-import P1Gear from './gear_sets/p1.gear.json';
 import P2Gear from './gear_sets/p2.gear.json';
+import P3Gear from './gear_sets/p3.gear.json';
 import PreraidGear from './gear_sets/preraid.gear.json';
 
 // Preset options for this spec.
@@ -20,8 +20,8 @@ import PreraidGear from './gear_sets/preraid.gear.json';
 // keep them in a separate file.
 
 export const PRERAID_PRESET = PresetUtils.makePresetGear('Pre-raid', PreraidGear);
-export const P1_PRESET = PresetUtils.makePresetGear('P1 - BIS', P1Gear);
 export const P2_PRESET = PresetUtils.makePresetGear('P2 - BIS', P2Gear);
+export const P3_PRESET = PresetUtils.makePresetGear('P3 - BIS', P3Gear);
 
 export const APL_Default = PresetUtils.makePresetAPLRotation('Incinerate', DefaultAPL);
 
@@ -31,7 +31,7 @@ export const DEFAULT_EP_PRESET = PresetUtils.makePresetEpWeights(
 	Stats.fromMap({
 		[Stat.StatIntellect]: 1.24,
 		[Stat.StatSpellPower]: 1.0,
-		[Stat.StatHitRating]: 4,
+		[Stat.StatHitRating]: 0.93,
 		[Stat.StatCritRating]: 0.60,
 		[Stat.StatHasteRating]: 0.66,
 		[Stat.StatMasteryRating]: 0.63,
@@ -94,7 +94,7 @@ export const OtherDefaults = {
 	channelClipDelay: 150,
 };
 
-export const PRSET_BUILD_P1 = PresetUtils.makePresetBuild('Default P1', {
+export const PRESET_BUILD_P1 = PresetUtils.makePresetBuild('Default', {
 	talents: DemonologyTalentsDefaultP1,
 	rotation: APL_Default,
 });
