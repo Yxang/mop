@@ -20,6 +20,8 @@ import P2OffensiveGear from './gear_sets/p2_offensive.gear.json';
 export const P2_OFFENSIVE_PRESET = PresetUtils.makePresetGear('P2 BiS (Offensive)', P2OffensiveGear);
 import P3Gear from './gear_sets/p3.gear.json';
 export const P3_PRESET = PresetUtils.makePresetGear('P3 BiS (Balanced)', P3Gear);
+import P3OffensiveGear from './gear_sets/p3_offensive.gear.json';
+export const P3_OFFENSIVE_PRESET = PresetUtils.makePresetGear('P3 BiS (Offensive)', P3OffensiveGear);
 import P4Gear from './gear_sets/p4.gear.json';
 export const P4_PRESET = PresetUtils.makePresetGear('P4', P4Gear);
 import ItemSwapGear from './gear_sets/p2_item_swap.gear.json';
