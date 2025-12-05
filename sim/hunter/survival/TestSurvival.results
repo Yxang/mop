@@ -2343,8 +2343,8 @@ dps_results: {
 dps_results: {
  key: "TestSurvival-AllItems-Xing-Ho,BreathofYu'lon-102246"
  value: {
-  dps: 172681.00134
-  tps: 142574.08694
+  dps: 172471.8211
+  tps: 142369.3415
  }
 }
 dps_results: {
@@ -2553,7 +2553,7 @@ dps_results: {
 dps_results: {
  key: "TestSurvival-Settings-Orc-p2-Row6_Talent3-Basic-sv-FullBuffs-24.0yards-LongMultiTarget"
  value: {
-  dps: 335940.81578
+  dps: 335940.96743
   tps: 295394.50839
  }
 }
@@ -2763,7 +2763,7 @@ dps_results: {
 dps_results: {
  key: "TestSurvival-Settings-Worgen-p2-Row6_Talent3-Basic-sv-FullBuffs-24.0yards-LongMultiTarget"
  value: {
-  dps: 333917.7118
+  dps: 333917.86047
   tps: 294718.53752
  }
 }
