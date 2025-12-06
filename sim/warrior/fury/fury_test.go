@@ -23,7 +23,7 @@ func TestFury(t *testing.T) {
 			GearSet: core.GetGearSet("../../../ui/warrior/fury/gear_sets", "p3_fury_tg"),
 
 			OtherGearSets: []core.GearSetCombo{
-				core.GetGearSet("../../../ui/warrior/fury/gear_sets", "prebis_fury_tg"),
+				core.GetGearSet("../../../ui/warrior/fury/gear_sets", "preraid_fury_tg"),
 			},
 			Talents: TGTalents,
 			OtherTalentSets: []core.TalentsCombo{
