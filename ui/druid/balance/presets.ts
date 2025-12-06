@@ -19,8 +19,8 @@ export const T16PresetGear = PresetUtils.makePresetGear('T16 (WIP)', T16Gear);
 
 export const StandardRotation = PresetUtils.makePresetAPLRotation('Standard', StandardApl);
 
-export const StandardEPWeights = PresetUtils.makePresetEpWeights(
-	'Standard',
+export const P2_BIS_EP_PRESET = PresetUtils.makePresetEpWeights(
+	'Item Level < 525',
 	Stats.fromMap({
 		[Stat.StatIntellect]: 1,
 		[Stat.StatSpirit]: 0.88,
@@ -29,6 +29,19 @@ export const StandardEPWeights = PresetUtils.makePresetEpWeights(
 		[Stat.StatCritRating]: 0.54,
 		[Stat.StatHasteRating]: 0.55,
 		[Stat.StatMasteryRating]: 0.46,
+	}),
+);
+
+export const P3_BIS_EP_PRESET = PresetUtils.makePresetEpWeights(
+	'Item Level >= 525',
+	Stats.fromMap({
+		[Stat.StatIntellect]: 1,
+		[Stat.StatSpirit]: 1.0,
+		[Stat.StatSpellPower]: 0.79,
+		[Stat.StatHitRating]: 1.0,
+		[Stat.StatCritRating]: 0.57,
+		[Stat.StatHasteRating]: 0.64,
+		[Stat.StatMasteryRating]: 0.53,
 	}),
 );
 
@@ -87,28 +100,28 @@ export const PresetPreraidBuild = PresetUtils.makePresetBuild('Pre-raid', {
 	gear: PreraidPresetGear,
 	talents: StandardTalents,
 	rotation: StandardRotation,
-	epWeights: StandardEPWeights,
+	epWeights: P2_BIS_EP_PRESET,
 });
 
 export const T14PresetBuild = PresetUtils.makePresetBuild('T14', {
 	gear: T14UpgradedPresetGear,
 	talents: StandardTalents,
 	rotation: StandardRotation,
-	epWeights: StandardEPWeights,
+	epWeights: P2_BIS_EP_PRESET,
 });
 
 export const T15PresetBuild = PresetUtils.makePresetBuild('T15', {
 	gear: T15PresetGear,
 	talents: StandardTalents,
 	rotation: StandardRotation,
-	epWeights: StandardEPWeights,
+	epWeights: P3_BIS_EP_PRESET,
 });
 
 export const T16PresetBuild = PresetUtils.makePresetBuild('T16', {
 	gear: T16PresetGear,
 	talents: StandardTalents,
 	rotation: StandardRotation,
-	epWeights: StandardEPWeights,
+	epWeights: P3_BIS_EP_PRESET,
 });
 
 export const BALANCE_BREAKPOINTS: UnitStatPresets = {
