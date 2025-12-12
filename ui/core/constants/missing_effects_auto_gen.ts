@@ -40,7 +40,6 @@ export const MISSING_ITEM_EFFECTS = [
     102847, // Grievous Gladiator's Dreadplate Gauntlets (Season 15) (Horde)
     103180, // Grievous Gladiator's Dreadplate Gauntlets (Season 15) (Alliance)
     103377, // Prideful Gladiator's Dreadplate Gauntlets (LFR) (Season 15) (Horde)
-    103678, // Time-Lost Artifact
     104313, // Golden Moss
     104478, // Prismatic Prison of Pride (H)
     104553, // Nazgrim's Burnished Insignia (H)
