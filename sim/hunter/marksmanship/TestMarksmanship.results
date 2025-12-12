@@ -2803,43 +2803,43 @@ dps_results: {
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-FullBuffs-24.0yards-LongMultiTarget"
  value: {
-  dps: 374651.21494
-  tps: 318378.27993
+  dps: 375261.98626
+  tps: 319226.80809
  }
 }
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-FullBuffs-24.0yards-LongSingleTarget"
  value: {
-  dps: 243481.62129
-  tps: 190620.16079
+  dps: 243936.24276
+  tps: 191042.00047
  }
 }
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-FullBuffs-24.0yards-ShortSingleTarget"
  value: {
-  dps: 371428.51815
-  tps: 243483.32861
+  dps: 376787.09581
+  tps: 247164.92105
  }
 }
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-NoBuffs-24.0yards-LongMultiTarget"
  value: {
-  dps: 273483.89777
-  tps: 240210.02479
+  dps: 273497.87372
+  tps: 240015.28285
  }
 }
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-NoBuffs-24.0yards-LongSingleTarget"
  value: {
-  dps: 176184.37624
-  tps: 143584.37092
+  dps: 177091.62818
+  tps: 144404.84032
  }
 }
 dps_results: {
  key: "TestMarksmanship-Settings-Orc-p3-Row4_Talent1-Basic-mm-NoBuffs-24.0yards-ShortSingleTarget"
  value: {
-  dps: 217287.21918
-  tps: 160248.67123
+  dps: 221131.83178
+  tps: 164092.77007
  }
 }
 dps_results: {
