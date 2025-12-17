@@ -81,9 +81,9 @@ dps_results: {
 dps_results: {
  key: "TestBalance-AllItems-BlackBloodofY'Shaarj-105648"
  value: {
-  dps: 272615.63908
-  tps: 272492.8282
-  hps: 29204.14742
+  dps: 272249.8316
+  tps: 272024.56575
+  hps: 29077.12692
  }
 }
 dps_results: {
@@ -489,9 +489,9 @@ dps_results: {
 dps_results: {
  key: "TestBalance-AllItems-Skeer'sBloodsoakedTalisman-105632"
  value: {
-  dps: 230266.14873
-  tps: 230958.33584
-  hps: 27612.80956
+  dps: 232899.61803
+  tps: 233436.66179
+  hps: 27791.03087
  }
 }
 dps_results: {
@@ -561,9 +561,9 @@ dps_results: {
 dps_results: {
  key: "TestBalance-AllItems-Time-LostArtifact-103678"
  value: {
-  dps: 234092.80557
-  tps: 234745.69667
-  hps: 27933.71402
+  dps: 236761.64902
+  tps: 237255.46513
+  hps: 28111.99335
  }
 }
 dps_results: {
