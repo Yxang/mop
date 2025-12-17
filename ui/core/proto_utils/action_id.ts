@@ -882,6 +882,11 @@ export class ActionId {
 					name += ' (Malefic)';
 				}
 				break;
+			case 'Metamorphosis':
+				if (tag == 1) {
+					name += ' (Cancel)';
+				}
+				break;
 			case 'Holy Prism':
 				if (this.spellId === 114852) {
 					if (tag === 1) {
