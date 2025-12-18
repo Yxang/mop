@@ -7,7 +7,7 @@ import i18n from '../../i18n/config.js';
 import * as Mechanics from '../constants/mechanics.js';
 import { IndividualSimUI } from '../individual_sim_ui';
 import { Player } from '../player';
-import { Class, GemColor, ItemSlot, Profession, PseudoStat, Race, ReforgeStat, Spec, Stat, UnitStats } from '../proto/common';
+import { Class, GemColor, ItemSlot, Profession, PseudoStat, Race, ReforgeStat, Spec, Stat } from '../proto/common';
 import { UIGem as Gem, IndividualSimSettings, ReforgeSettings, StatCapType } from '../proto/ui';
 import { isShaTouchedWeapon, isThroneOfThunderWeapon, ReforgeData } from '../proto_utils/equipped_item';
 import { Gear } from '../proto_utils/gear';
@@ -27,7 +27,7 @@ import { renderSavedEPWeights } from './saved_data_managers/ep_weights';
 import Toast from './toast';
 import { trackEvent, trackPageView } from '../../tracking/utils';
 import { getReforgeWorkerPool } from '../reforge_worker_pool.js';
-import type { LPModel, LPSolution, SerializedConstraints, SerializedVariables, SerializedConstraint } from '../../worker/reforge_types';
+import type { LPModel, LPSolution, SerializedConstraints, SerializedVariables } from '../../worker/reforge_types';
 
 type YalpsCoefficients = Map<string, number>;
 type YalpsVariables = Map<string, YalpsCoefficients>;
@@ -37,14 +37,6 @@ function serializeVariables(variables: YalpsVariables): SerializedVariables {
 	const result: SerializedVariables = {};
 	for (const [key, coefficients] of variables.entries()) {
 		result[key] = Object.fromEntries(coefficients.entries());
-	}
-	return result;
-}
-
-function deserializeVariables(serialized: SerializedVariables): YalpsVariables {
-	const result = new Map<string, YalpsCoefficients>();
-	for (const [key, coefficients] of Object.entries(serialized)) {
-		result.set(key, new Map(Object.entries(coefficients)));
 	}
 	return result;
 }
