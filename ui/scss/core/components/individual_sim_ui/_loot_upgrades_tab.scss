@@ -1,0 +1,36 @@
+#loot-upgrades-tab {
+	.loot-upgrades-left {
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	}
+
+	.loot-upgrades-alt-weapon-pickers {
+		display: flex;
+		gap: var(--section-spacer);
+	}
+
+	.loot-upgrades-alt-weapon .icon-picker-button {
+		width: 48px;
+		height: 48px;
+		background-size: cover;
+		background-position: center;
+		border-radius: 6px;
+		border: 1px solid var(--border-color);
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		position: relative;
+	}
+
+	.loot-upgrades-table-wrapper {
+		overflow: auto;
+		max-height: 70vh;
+	}
+
+	.loot-upgrades-table {
+		min-width: 760px;
+	}
+
+	.loot-upgrades-progress {
+		min-width: 220px;
+	}
+}
