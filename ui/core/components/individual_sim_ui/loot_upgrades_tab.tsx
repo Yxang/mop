@@ -140,11 +140,11 @@ export class LootUpgradesTab extends SimTab {
 				</div>
 				<div className="content-block loot-upgrades-actions">
 					<div className="content-block-body">
-						<div className="btn-group w-100 mb-2" role="group">
+						<div className="btn-group w-100 mb-2">
 							<button className="btn btn-primary loot-upgrades-run-all">Sim All Drops</button>
 							<button className="btn btn-outline-secondary loot-upgrades-cancel">Cancel</button>
 						</div>
-						<div className="btn-group w-100" role="group">
+						<div className="btn-group w-100">
 							<button className="btn btn-outline-primary loot-upgrades-export">Export CSV</button>
 							<button className="btn btn-outline-danger loot-upgrades-clear">Clear Boss Cache</button>
 						</div>
@@ -152,7 +152,7 @@ export class LootUpgradesTab extends SimTab {
 				</div>
 				<div ref={progressRef} className="loot-upgrades-progress">
 					<div className="progress">
-						<div ref={progressBarRef} className="progress-bar" role="progressbar"></div>
+						<div ref={progressBarRef} className="progress-bar"></div>
 					</div>
 					<div ref={progressLabelRef} className="small mt-1"></div>
 					<div ref={currentItemLabelRef} className="small text-muted"></div>

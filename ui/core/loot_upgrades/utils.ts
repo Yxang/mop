@@ -39,7 +39,7 @@ export function getMaxUpgradeStep(item: Item): ItemLevelState {
 
 export function isWeaponItem(item: Item): boolean {
 	if (item.type === ItemType.ItemTypeWeapon) return true;
-	if (item.handType && item.handType !== HandType.HandTypeUnknown) return true;
+	if (item.handType) return true;
 	return item.rangedWeaponType > 0;
 }
 
